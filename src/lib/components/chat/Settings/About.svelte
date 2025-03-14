@@ -42,7 +42,7 @@
 	});
 </script>
 
-<div class="flex flex-col h-full justify-between space-y-3 text-sm mb-6">
+<!-- <div class="flex flex-col h-full justify-between space-y-3 text-sm mb-6">
 	<div class=" space-y-3 overflow-y-scroll max-h-[28rem] lg:max-h-full">
 		<div>
 			<div class=" mb-2.5 text-sm font-medium flex space-x-2 items-center">
@@ -190,5 +190,21 @@ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 				target="_blank">Timothy J. Baek</a
 			>
 		</div>
+	</div>
+</div> -->
+
+<!-- Simplificando Deepze-->
+<div class="flex flex-col h-full justify-between space-y-3 text-sm mb-6">
+	<div class="space-y-3 overflow-y-scroll max-h-[28rem] lg:max-h-full">
+		<div>
+			<div class="mb-2.5 text-sm font-medium">{$i18n.t('Deepze Version')}</div>
+			<div class="flex w-full">
+				<div class="flex-1 text-xs text-gray-700 dark:text-gray-200">
+					Supported by <a href="https://deepze.ai" target="_blank" class="underline">Deepze AI</a> for advanced processing and insights.
+				</div>
+			</div>
+		</div>
+
+		<hr class="border-gray-100 dark:border-gray-850" />
 	</div>
 </div>
