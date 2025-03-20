@@ -584,7 +584,7 @@
 
 					<div class="mb-2.5 w-full justify-between">
 						<div class="flex w-full justify-between">
-							<div class=" self-center text-xs font-medium">{$i18n.t('WebUI URL')}</div>
+							<div class=" self-center text-xs font-medium">{$i18n.t('Deepze UI URL')}</div>
 						</div>
 
 						<div class="flex mt-2 space-x-2">
@@ -598,7 +598,7 @@
 
 						<div class="mt-2 text-xs text-gray-400 dark:text-gray-500">
 							{$i18n.t(
-								'Enter the public URL of your WebUI. This URL will be used to generate links in the notifications.'
+								'Enter the public URL of your Deepze UI. This URL will be used to generate links in the notifications.'
 							)}
 						</div>
 					</div>
